@@ -1,3 +1,9 @@
+var Board = require('./lib/board');
+new Board({
+  massNum: 9, 
+  bombNum: 10, 
+});
+/*
 var blessed = require('blessed');
  
 // Create a screen object. 
@@ -140,3 +146,4 @@ box.focus();
  
 // Render the screen. 
 screen.render();
+*/
