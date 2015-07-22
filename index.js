@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var Board = require('./lib/board');
 new Board({
   massNum: 9, 
