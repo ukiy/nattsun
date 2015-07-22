@@ -9,6 +9,10 @@
   "author": "ukiy",
   "license": "ISC",
   "dependencies": {
-    "blessed": "^0.1.14"
+    "blessed": "^0.1.14",
+    "lodash": "^3.10.0"
+  },
+  "bin": {
+    "nattsun": "index.js"
   }
 }
